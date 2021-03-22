@@ -1,0 +1,221 @@
+.bcd_cont_banner {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/BannerHorizontal2.jpg");
+}
+
+.bcd_sombra {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    margin: auto;
+}
+
+.bcd_cont_banner_letras1 {
+    width: 96%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.imagen_letras1 {
+    width: 45%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.bcd_cont_banner_letras2 {
+    width: 96%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.imagen_letras2 {
+    width: 50%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*.bcd_sombra h1 {
+    font-size: 8vw;
+    margin-bottom: 10px;
+    height: 20vh;
+    width: 40vw;
+    text-align: center;
+    padding: 1%;
+    margin: auto;
+} */
+
+.bcd_sombra hr {
+    border-top: 1px solid #fff;
+}
+
+/* .bcd_sombra p {
+    font-size: 4vw;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 1%;
+    margin: auto;
+} */
+
+.bcd_cont_banner_link {
+    margin: 15px;
+    position: relative;
+}
+
+.bcd_cont_banner_link a {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 200px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.bcd_cont_banner_link a:hover {
+    background-color: #fff;
+    color: #111;
+}
+
+.bcd_banner_link {
+    opacity: 0;
+    animation: bcd_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: bcd_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+}
+
+.bcd_banner_link1 {
+    opacity: 0;
+    animation: bcd_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: bcd_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+.bcd_banner_link2 {
+    opacity: 0;
+    animation: bcd_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: bcd_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+/**************************************************/
+
+/*  HASTA ACA ES TODO REFERENTE AL BANNER PRINCIPAL
+    (DE INDEX)
+*/
+
+/***********************************************************************/
+
+/*LO QUE SIGUE ES DE LA SECCION CON EL PORTFOLIO Y LA HISTORIA - INDEX*/
+
+/***********************************************************************/
+
+.bcd_cont_banner_sec_3 {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/Potes1Perspectiva.jpg");
+    position: relative;
+    padding: 10%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.bcd_cont_banner_sec_3 .row {
+    background-color: rgba(1, 1, 1, 0.7);
+    color: #fff;
+    padding: 2%;
+}
+
+.bcd_cont_sec_3_img {
+    padding: 2%;
+}
+
+/*************************************/
+
+/******** SOLAPA NOVEDADES  **********/
+
+/*************************************/
+
+/******************************/
+
+/*BANNER PRINCIPAL - NOVEDADES*/
+
+/******************************/
+
+.bcd_cont_banner_novedades {
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/BannerHorizontal2.jpg");
+}
+
+.bcd_sombra_novedades {
+    max-height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 70%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    margin: auto;
+}
+
+.bcd_cont_banner_novedades_letras1 {
+    width: 96%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.imagen_novedades_letras1 {
+    width: 45%;
+    height: auto;
+    margin-bottom: 3px;
+}
+
+.bcd_cont_banner_novedades_letras2 {
+    width: 96%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.imagen_novedades_letras2 {
+    width: 50%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+/******************************/
+
+/* - NOVEDADES*/
+
+/******************************/

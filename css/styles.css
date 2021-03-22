@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Cormorant', serif; */
+    font-family: 'gilroylight', serif;
+    /*color: rgb(0, 0, 0) !important;*/
+}
+
+/**************************/
+
+/****MENU DE NAVEGACION****/
+
+/**************************/
+
+.bcd_navbar {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    font-family: 'akrobatregular', serif;
+}
+
+.bcd_navbar div, .bcd_navbar ul {
+    background-color: transparent !important;
+    font-family: 'gilroylight', serif;
+}
+
+/***************************/
+
+/*BANNER PRINCIPAL - INDEX*/
+
+/***************************/
+
+.bcd_cont_banner_link {
+    font-family: 'harabara_maisharabara_mais', serif;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.bcd_cont_banner h1 {
+    font-family: 'harabara_maisharabaramaisltit', serif;
+}
+
+.bcd_cont_banner p {
+    font-family: 'harabara_maisharabara_mais', serif;
+}
+
+/*****************************************************************/
+
+/*SECCION SIGUIENTE A BANNER PRINCIPAL INDEX - CON TEXTO Y BOTON*/
+
+/****************************************************************/
+
+.bcd_cont_sec_1 {
+    padding: 10%;
+}
+
+.bcd_cont_sec_1_link {
+    padding: 5%;
+}
+
+.bcd_cont_sec_1_link a {
+    width: 200px;
+    font-family: 'sheenline_scriptregular', serif;
+    font-size: 30px;
+}
+
+.bcd_cont_sec_1 hr {
+    border-top: 1px solid rgba(1, 1, 1, 0.3);
+}
+
+/*************************************/
+
+/*SECCION PRESENTACION Y GIF - INDEX*/
+
+/************************************/
+
+.bcd_cont_sec_2_links a {
+    color: rgba(1, 71, 30, 0.897);
+    font-size: 20px;
+    /* width: 100%; */
+}
+
+.bcd_cont_sec_2_gif {
+    /* -webkit-user-select: none; */
+    margin: auto;
+    background-color: hsl(0, 0%, 100%);
+    transition: background-color 1000ms;
+}
+
+/************************************/
+
+/* Popup Proteinas */
+
+/************************************/
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* PopUp actual */
+
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Flecha Popup */
+
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle - muestra u oculta el Popup */
+
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/************************************/
+
+/*PopUp Grasas*/
+
+/************************************/
+
+.popup2 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* PopUp actual */
+
+.popup2 .popuptext2 {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Flecha Popup */
+
+.popup2 .popuptext2::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle - muestra u oculta el Popup */
+
+.popup2 .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/**************************************************************/
+
+/*ESTO ES DE LA SECCION CON EL PORTFOLIO Y LA HISTORIA - INDEX*/
+
+/**************************************************************/
+
+.bcd_cont_banner_sec_3 {
+    padding: 5%;
+}
+
+.bcd_cont_banner_sec_3 a {
+    width: 200px;
+}
+
+/******************************************************************/
+
+/*ESTO ES DE LA SECCION CON IMAGENES Y REDIRECCIONAMIENTO - INDEX*/
+
+/*****************************************************************/
+
+.bcd_cont_sec_4 h3 {
+    padding-top: 3%;
+}
+
+.bcd_cont_sec_4 p {
+    padding-bottom: 5%;
+}
+
+/*************************************/
+
+/*ESTO ES DE LA SECCION PIE DE PAGINA*/
+
+/*************************************/
+
+.bcd_cont_footer {
+    background-color: rgba(1, 1, 1, 0.7);
+    padding: 10%;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.bcd_cont_footer a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.bcd_cont_firma {
+    padding-top: 15%;
+}
+
+/*************************************/
+
+/*ACA ES PAGINA NOVEDADES HTML*/
+
+/*************************************/
+
+/*************************************/
+
+/*Primera parte NOVEDADES HTML*/
+
+/*************************************/
+
+.bcd_cont_nov_1 {
+    padding: 10%;
+}
+
+.bcd_imagen_cont_nov_1 {
+    padding-top: 5%;
+    width: 96%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+/*************************************/
+
+/*Votacion NOVEDADES HTML*/
+
+/*************************************/
+
+.bcd_nov_encuesta hr {
+    border-top: 1px solid rgba(1, 1, 1, 0.2);
+}
+
+.bcd_sec_nov_2 h3 {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.bcd_cont_nov_2 {
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Esconde el option box por defecto */
+
+.bcd_cont_nov_2 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* option box creado */
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* Al pasar el mouse, cambia color a gris */
+
+.bcd_cont_nov_2:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* cuando el option box es seleccionado, agrega color verde */
+
+.bcd_cont_nov_2 input:checked~.checkmark {
+    background-color: #00a00d;
+}
+
+/* Esconder circulito cuando no esta seleccionado*/
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Mostrar el circulito cuando se elige */
+
+.bcd_cont_nov_2 input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Estilo del circulito */
+
+.bcd_cont_nov_2 .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+/* BOTON PARA VOTAR */
+
+.bcd_cont_nov_2_btn button {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    position: relative;
+    margin-bottom: 5px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-family: 'harabara_maisharabara_mais', serif;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+/*************************************/
+
+/*ACA ES PAGINA GARDIM HTML*/
+
+/*************************************/
+
+/*************************************/
+
+/*Primera parte GARDIM HTML*/
+
+/*************************************/
+
