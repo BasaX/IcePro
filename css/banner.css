@@ -4,7 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../img/BannerHorizontal2.jpg");
+    background-image: url("../img/Productos3HeladosPersp1.jpg");
 }
 
 .bcd_sombra {
@@ -214,8 +214,23 @@
     margin-bottom: 3px;
 }
 
-/******************************/
+/*************************************/
 
-/* - NOVEDADES*/
+/*ACA ES PAGINA CONOCENOS HTML*/
 
-/******************************/
+/*************************************/
+
+/*************************************/
+
+/*Primera parte CONOCENOS HTML*/
+
+/*************************************/
+
+.bcd_banner_conocenos {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/ConocenosPareja2Chico.JPG");
+}
